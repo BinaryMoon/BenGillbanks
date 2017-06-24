@@ -15,9 +15,13 @@ logo: /assets/images/favicon-192.png
 
 # Build settings
 markdown: kramdown
-theme: minima
+
 gems:
-  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
+include:
+  - _pages
