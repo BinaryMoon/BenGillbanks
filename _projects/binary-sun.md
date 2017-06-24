@@ -1,4 +1,5 @@
 ---
-title: Binary Sum
-url: https://www.binarysun.co.uk
+title: Binary Sun
+website: https://www.binarysun.co.uk
 ---
+Online games site.
