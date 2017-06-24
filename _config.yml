@@ -13,6 +13,14 @@ permalink: /blog/:year/:title/
 #google_analytics: UA-55722-24
 logo: /assets/images/favicon-192.png
 
+
+# Collections
+collections:
+  projects:
+    output: false
+  timeline:
+    output: false
+
 # Build settings
 markdown: kramdown
 

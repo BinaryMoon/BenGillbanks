@@ -1,0 +1,75 @@
+body {
+
+	background: $canvas-white;
+
+}
+
+a {
+
+	color: $canvas-blue;
+
+	&:hover {
+
+		text-decoration: none;
+
+	}
+
+}
+
+.container {
+
+	@include container;
+
+}
+
+.button {
+
+	width: 100%;
+
+}
+
+hr {
+
+	max-width: $grid-gutter;
+	border-width: $border-width;
+	border-color: $canvas-red;
+
+}
+
+section {
+
+	h2 {
+
+		text-align: center;
+		margin-bottom: $grid-line-height * 2;
+
+	}
+
+}
+
+svg {
+
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-right: $grid-gutter / 4;
+	vertical-align: middle;
+	color: $canvas-red;
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+
+}
+
+.description {
+
+	text-align: center;
+	@include modular-scale( epsilon );
+
+}
+
+.page-content {
+
+	margin-bottom: $grid-line-height * $grid-line-height-multiplier * 2;
+
+}

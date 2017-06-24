@@ -1,0 +1,20 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+	<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300|Spectral:200,800" rel="stylesheet">
+	<link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}?dc={{ site.time | date: '%y%m%d%k%M' }}">
+
+	<meta name="theme-color" content="#EBC543">
+
+	{% seo %}
+
+	{% if jekyll.environment == "production" and site.google_analytics %}
+	{% include google-analytics.html %}
+	{% endif %}
+
+</head>
