@@ -12,7 +12,9 @@
 @import "lib/_components";
 
 // Template components
+@import "template/_about-me";
 @import "template/_projects";
+@import "template/_timeline";
 
 // Everything else that doesn't fit in the template files.
 @import "_layout";
