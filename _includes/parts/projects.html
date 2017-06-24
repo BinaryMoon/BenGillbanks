@@ -1,6 +1,18 @@
+<div class="container projects">
+
 {% for project in site.projects %}
 
-	<div class="project">
-		<h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+	<div class="project" style="background-image:url( https://s0.wordpress.com/mshots/v1/{{ project.website | cgi_escape }}?w=800&h=600 );">
+
+		<div class="project-meta">
+
+			<h2><a href="{{ project.website }}">{{ project.title }}</a></h2>
+			{{ project.content }}
+
+		</div>
+
 	</div>
+
 {% endfor %}
+
+</div>

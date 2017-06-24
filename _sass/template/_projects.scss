@@ -1,0 +1,44 @@
+.project {
+
+	display: block;
+	height: 0;
+	padding-bottom: 60%;
+	background-size: cover;
+	background-repeat: none;
+	background-position: top left;
+	position: relative;
+	margin: 0 0 ( $grid-line-height ) 0;
+
+	.project-meta {
+
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: $grid-line-height $grid-gutter;
+
+	}
+
+	&:before {
+
+		display: block;
+		content: '';
+		background: $canvas-blue;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		opacity: 0.95;
+
+	}
+
+	h1,
+	p {
+
+		max-width: $grid-gutter * 8;
+		z-index: 1;
+
+	}
+
+}

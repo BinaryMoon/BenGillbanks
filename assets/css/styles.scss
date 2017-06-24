@@ -11,6 +11,9 @@
 @import "lib/_mixins";
 @import "lib/_components";
 
+// Template components
+@import "template/_projects";
+
 // Everything else that doesn't fit in the template files.
 @import "_layout";
 @import "_responsive";
