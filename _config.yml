@@ -16,10 +16,8 @@ logo: /assets/images/favicon-192.png
 
 # Collections
 collections:
-  projects:
-    output: false
-  timeline:
-    output: false
+- projects
+- timeline
 
 # Build settings
 markdown: kramdown
