@@ -1,43 +1,84 @@
-.project {
+.projects {
 
-	display: block;
-	height: 0;
-	padding-bottom: 60%;
-	background-size: cover;
-	background-repeat: none;
-	background-position: top left;
-	position: relative;
-	margin: 0 0 ( $grid-line-height ) 0;
+	.container {
 
-	.project-meta {
-
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		padding: $grid-line-height $grid-gutter;
+		display: flex;
+		flex-wrap: wrap;
 
 	}
 
-	&:before {
+	.project {
 
-		display: block;
-		content: '';
-		background: $canvas-blue;
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		opacity: 0.95;
+		padding: 0 0 ( $grid-line-height * 2 ) 0;
+		width: 50%;
+		@include clear;
 
-	}
+		&:nth-child(even) {
 
-	h1,
-	p {
+			transform: translateY( $grid-line-height * -2 );
+			padding-left: $grid-gutter / 2;
 
-		max-width: $grid-gutter * 8;
-		z-index: 1;
+		}
+
+		&:nth-child(odd) {
+
+			transform: translateY( $grid-line-height * 2 );
+			padding-right: $grid-gutter / 2;
+
+		}
+
+		.project-inner {
+
+			display: block;
+			height: 0;
+			padding-bottom: 60%;
+			background-size: cover;
+			background-repeat: none;
+			background-position: top left;
+			position: relative;
+			color: $canvas-white;
+
+			a {
+
+				color: $canvas-white;
+				text-decoration: none;
+
+			}
+
+			&:before {
+
+				display: block;
+				content: '';
+				background: $canvas-blue;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				opacity: 0.95;
+
+			}
+
+		}
+
+		.project-meta {
+
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: ( $grid-line-height * 1 ) ( $grid-gutter * 1 );
+
+		}
+
+
+		h1,
+		p {
+
+			max-width: $grid-gutter * 8;
+			z-index: 1;
+
+		}
 
 	}
 
