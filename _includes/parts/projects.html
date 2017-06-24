@@ -1,18 +1,26 @@
-<div class="container projects">
+<section class="projects">
 
-{% for project in site.projects %}
+	<div class="container">
 
-	<div class="project" style="background-image:url( https://s0.wordpress.com/mshots/v1/{{ project.website | cgi_escape }}?w=800&h=600 );">
+		{% for project in site.projects %}
 
-		<div class="project-meta">
+		<div class="project">
 
-			<h2><a href="{{ project.website }}">{{ project.title }}</a></h2>
-			{{ project.content }}
+			<div class="project-inner" style="background-image:url( https://s0.wordpress.com/mshots/v1/{{ project.website | cgi_escape }}?w=800&h=600 );">
+
+				<div class="project-meta">
+
+					<h2><a href="{{ project.website }}">{{ project.title }}</a></h2>
+					{{ project.content }}
+
+				</div>
+
+			</div>
 
 		</div>
 
+		{% endfor %}
+
 	</div>
 
-{% endfor %}
-
-</div>
+</section>
