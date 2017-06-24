@@ -1,0 +1,23 @@
+# Site settings
+# accessible in the templates via {{ site.myvariable }}.
+title: Ben Gillbanks - Internet Nobody
+description: ""
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://bengillbanks.co.uk
+twitter_username: binarymoon
+github_username: binarymoon
+github: [metadata]
+repository: BinaryMoon/BenGillbanks
+permalink: /blog/:year/:title/
+#google_analytics: UA-55722-24
+logo: /assets/images/favicon-192.png
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
