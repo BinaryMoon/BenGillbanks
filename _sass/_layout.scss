@@ -7,10 +7,13 @@ body {
 a {
 
 	color: $canvas-blue;
+	text-decoration: none;
+	background: linear-gradient(transparent 0%, transparent 70%, $canvas-color 70%, $canvas-color 100%);
 
 	&:hover {
 
 		text-decoration: none;
+		background: linear-gradient($canvas-color 0%, $canvas-color 70%, $canvas-color 70%, $canvas-color 100%);;
 
 	}
 
@@ -80,7 +83,7 @@ svg {
 	display: inline-block;
 	width: 32px;
 	height: 32px;
-	margin-right: $grid-gutter / 4;
+	margin-right: $grid-gutter / 2;
 	vertical-align: middle;
 	color: $canvas-red;
 	stroke-width: 1px;
