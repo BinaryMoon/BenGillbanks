@@ -18,6 +18,7 @@ logo: /assets/images/favicon-192.png
 collections:
 - projects
 - timeline
+- social
 
 # Build settings
 markdown: kramdown

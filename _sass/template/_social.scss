@@ -1,0 +1,17 @@
+.social {
+
+	.profile {
+
+		margin-bottom: $grid-line-height * 2;
+
+		h3 {
+
+			@include modular-scale( mega );
+			font-weight: 100;
+			margin: 0;
+
+		}
+
+	}
+
+}

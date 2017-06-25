@@ -1,4 +1,5 @@
-<section>
+{% assign profiles = site.social | sort: 'order' %}
+<section class="social">
 
 	<header>
 		<h2>Social Life</h2>
@@ -6,6 +7,18 @@
 	</header>
 
 	<div class="container">
+
+		{% for profile in profiles %}
+
+		<div class="profile">
+
+			<h3><a href="{{ profile.website }}">{{ profile.title }}</a></h3>
+
+			{{ profile.content }}
+
+		</div>
+
+		{% endfor %}
 
 	</div>
 
