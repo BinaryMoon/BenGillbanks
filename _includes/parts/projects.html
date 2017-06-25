@@ -1,8 +1,9 @@
+{% assign projects = site.projects | sort: 'order' %}
 <section class="projects">
 
 	<div class="container">
 
-		{% for project in site.projects %}
+		{% for project in projects %}
 
 		<div class="project">
 
