@@ -1,5 +1,6 @@
 ---
 title: Pro Theme Design
 website: https://prothemedesign.com
+order: 1
 ---
-Premium WordPress Themes.
+Professional WordPress Themes, created with care and attention.
