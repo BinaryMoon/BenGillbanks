@@ -1,3 +1,27 @@
-<div class="container timeline">
+<section class="timeline">
 
-</div>
+	<header>
+		<h2>Life Line</h2>
+		<p>An abbreviated history of my life</p>
+	</header>
+
+	<div class="container">
+
+		{% for project in site.timeline | sort: date %}
+
+		<div class="project">
+
+			<h3>{{ project.title }}</h3>
+			<h4>{{ project.start_date | date: "%B %Y" }} to {{ project.end_date | date: "%B %Y" }}</h4>
+
+			<div class="content">
+				{{ project.content }}
+			</div>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>

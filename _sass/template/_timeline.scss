@@ -1,0 +1,51 @@
+.timeline {
+
+	padding-top: $grid-line-height * 8;
+	margin-top: $grid-line-height * -4;
+	background: $canvas-color;
+
+	.container {
+
+		@include clear;
+
+		.project {
+
+			float: left;
+			width: 45%;
+			clear: both;
+			margin-top: $grid-line-height * -4;
+
+			&:nth-child( even ) {
+
+				float: right;
+
+			}
+
+			&:nth-child( 1 ) {
+
+				margin-top: 0;
+
+			}
+
+			.content {
+
+				margin-left: $grid-gutter * 2;
+
+			}
+
+			h3 {
+
+				margin: 0;
+
+			}
+
+			h4 {
+
+				font-weight: 100;
+
+			}
+
+		}
+
+	}
+}
