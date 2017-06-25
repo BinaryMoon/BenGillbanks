@@ -16,7 +16,7 @@
 
 		&:nth-child(even) {
 
-			transform: translateY( $grid-line-height * -2 );
+			transform: translateY( $grid-line-height * -4 );
 			padding-left: $grid-gutter / 2;
 
 		}
