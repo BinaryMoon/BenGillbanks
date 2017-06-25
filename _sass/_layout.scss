@@ -36,8 +36,28 @@ h1, h2, h3, h4, h5, h6 {
 
 section {
 
-	padding: ( $grid-line-height * 2 ) ( $grid-gutter * 2 );
+	padding: ( $grid-line-height * 4 ) ( $grid-gutter * 2 );
 	position: relative;
+
+	header {
+
+		text-align: center;
+		margin-bottom: $grid-line-height * 4;
+
+		h2 {
+
+			@include modular-scale( alpha );
+			margin: 0;
+
+		}
+
+		p {
+
+			margin: 0;
+
+		}
+
+	}
 
 }
 
@@ -66,5 +86,12 @@ svg {
 	stroke-width: 1px;
 	stroke-linejoin: round;
 	stroke-linecap: round;
+
+}
+
+footer {
+
+	padding: ( $grid-line-height * 2 ) ( $grid-gutter );
+	text-align: center;
 
 }
