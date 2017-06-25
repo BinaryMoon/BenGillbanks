@@ -12,6 +12,9 @@
 
 		<div class="profile">
 
+			{% capture svg_icon %}svg/{{ profile.icon }}.svg{% endcapture %}
+			{% include {{ svg_icon }} %}
+
 			<h3><a href="{{ profile.website }}">{{ profile.title }}</a></h3>
 
 			{{ profile.content }}
