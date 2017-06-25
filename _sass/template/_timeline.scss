@@ -1,7 +1,7 @@
 .timeline {
 
-	padding-top: $grid-line-height * 8;
-	margin-top: $grid-line-height * -4;
+	padding-top: $grid-line-height * 10;
+	margin-top: $grid-line-height * -10;
 	background: $canvas-color;
 
 	.container {
@@ -13,7 +13,7 @@
 			float: left;
 			width: 45%;
 			clear: both;
-			margin-top: $grid-line-height * -4;
+			margin-top: $grid-line-height * -3;
 
 			&:nth-child( even ) {
 
