@@ -10,14 +10,23 @@
 
 		.project {
 
-			float: left;
-			width: 45%;
 			clear: both;
 			margin-top: $grid-line-height * -3;
+			position: relative;
+			padding-right: 58%;
+			background:url( ../images/timeline-branch.svg ) no-repeat top center;
+			min-height: $grid-line-height * 5;
 
 			&:nth-child( even ) {
 
-				float: right;
+				padding-left: 58%;
+				padding-right: 0;
+
+				&:after {
+
+					right: auto;
+					left: $grid-gutter * -2;
+				}
 
 			}
 
@@ -27,9 +36,16 @@
 
 			}
 
+			&:last-child {
+
+				padding-bottom: $grid-line-height * 4;
+				margin-bottom: $grid-line-height * -4;
+
+			}
+
 			.content {
 
-				margin-left: $grid-gutter * 2;
+				margin-left: $grid-gutter;
 
 			}
 
