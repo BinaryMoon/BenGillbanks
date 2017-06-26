@@ -1,0 +1,14 @@
+.contact {
+
+	background: $canvas-grey-10;
+
+	.container {
+
+		border: 1rem solid $canvas-color;
+		padding: ( $grid-line-height * 2 ) ( $grid-gutter * 2 );
+		max-width: $grid-total-width * 0.5;
+		background: $canvas-white;
+
+	}
+
+}
