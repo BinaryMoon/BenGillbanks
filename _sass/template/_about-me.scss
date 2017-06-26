@@ -9,6 +9,18 @@
 
 	}
 
+	.avatar {
+
+		border: 1rem solid $canvas-white;
+		border-radius: 10rem;
+		max-width: $grid-gutter * 4;
+		max-height: $grid-gutter * 4;
+		position: absolute;
+		top: $grid-line-height / 2;
+		left: $grid-gutter * -1.65;
+
+	}
+
 	p {
 
 		margin-left: $grid-gutter;
