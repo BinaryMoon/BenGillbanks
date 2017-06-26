@@ -8,12 +8,14 @@ a {
 
 	color: $canvas-blue;
 	text-decoration: none;
-	background: linear-gradient(transparent 0%, transparent 70%, $canvas-color 70%, $canvas-color 100%);
+	position: relative;
+	@include transition;
+	box-shadow: inset 0 -0.4em 0 $canvas-color;
 
 	&:hover {
 
 		text-decoration: none;
-		background: linear-gradient($canvas-color 0%, $canvas-color 70%, $canvas-color 70%, $canvas-color 100%);;
+		box-shadow: inset 0 -0.8em 0 $canvas-color;
 
 	}
 
