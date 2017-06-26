@@ -2,9 +2,7 @@
 
 @mixin transition( $transition: all 0.15s ease-in-out ) {
 
-	.device-click & {
-		transition: $transition;
-	}
+	transition: $transition;
 
 }
 
