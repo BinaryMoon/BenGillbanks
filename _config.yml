@@ -10,7 +10,7 @@ github_username: binarymoon
 github: [metadata]
 repository: BinaryMoon/BenGillbanks
 permalink: /blog/:year/:title/
-#google_analytics: UA-55722-24
+google_analytics: UA-55722-11
 logo: /assets/images/favicon-192.png
 
 
