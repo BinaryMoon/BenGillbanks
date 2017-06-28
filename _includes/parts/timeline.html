@@ -1,3 +1,4 @@
+{% assign projects = site.timeline | sort: 'start_date' %}
 <section class="timeline">
 
 	<header>
@@ -7,12 +8,12 @@
 
 	<div class="container">
 
-		{% for project in site.timeline | sort: date %}
+		{% for project in projects %}
 
 		<div class="project">
 
 			<h3>{{ project.title }}</h3>
-			<h4>{{ project.start_date | date: "%B %Y" }} to {{ project.end_date | date: "%B %Y" }}</h4>
+			<h4>{{ project.start_date | date: "%B %Y" }} {% if project.end_date %}to {{ project.end_date | date: "%B %Y" }}{% endif %}</h4>
 
 			<div class="content">
 				{{ project.content }}
