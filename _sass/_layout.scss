@@ -64,6 +64,19 @@ section {
 
 	}
 
+	@include for-tablet() {
+
+		padding: ( $grid-line-height * 2 ) $grid-gutter;
+
+	}
+
+	@include for-phone {
+
+		padding-left: $grid-gutter / 2;
+		padding-right: $grid-gutter / 2;
+
+	}
+
 }
 
 .button {

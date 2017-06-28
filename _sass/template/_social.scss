@@ -15,7 +15,7 @@
 
 		h3 {
 
-			@include modular-scale( mega );
+			@include modular-scale( alpha );
 			font-weight: 100;
 			margin: 0;
 			display: inline-block;
@@ -25,6 +25,38 @@
 				display: block;
 
 			}
+
+		}
+
+		@include for-tablet {
+
+			svg {
+
+				width: $grid-gutter * 2;
+				height: $grid-gutter * 2;
+				margin-top: 0;
+
+			}
+
+			h3 {
+
+				@include modular-scale( beta );
+
+			}
+
+		}
+
+		@include for-phone {
+
+			svg {
+
+				width: 100%;
+				margin: 0 0 ( $grid-line-height / 2 ) 0;
+
+			}
+
+			text-align: center;
+
 
 		}
 

@@ -81,6 +81,21 @@
 
 		}
 
+		@include for-tablet {
+
+			width: 100%;
+
+			&:nth-child( odd ),
+			&:nth-child( even ) {
+
+				transform: translateY( 0 );
+				padding-left: 0;
+				padding-right: 0;
+
+			}
+
+		}
+
 	}
 
 }

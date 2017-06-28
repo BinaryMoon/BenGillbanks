@@ -19,16 +19,6 @@
 
 	}
 
-	.masthead {
-
-		.container {
-
-			width: auto;
-
-		}
-
-	}
-
 }
 
 
@@ -40,100 +30,6 @@
 
 	}
 
-	.masthead {
-
-		.container {
-
-			padding: 0;
-
-		}
-
-
-		.branding {
-
-			padding: ( $grid-line-height * $grid-line-height-multiplier) 0;
-
-			h1{
-
-				@include modular-scale( delta );
-
-			}
-
-		}
-
-	}
-
-	body {
-
-		background-image: none;
-
-	}
-
-	.masthead .container,
-	.container {
-
-		margin-left: 7%;
-		margin-right: 7%;
-
-	}
-
-	.modules {
-
-		column-count: 1;
-
-	}
-
-	.people {
-
-		flex-direction: column;
-
-		.person {
-
-			width: 100%;
-
-		}
-
-	}
-
-	.intro {
-
-		.newsletter {
-
-			flex-direction: column;
-
-		}
-
-	}
-
-	.intro .newsletter,
-	.newsletter {
-
-		input {
-
-			margin: 0;
-
-		}
-
-		label,
-		input[type=submit] {
-
-			width: 100%;
-			margin-bottom: $grid-line-height / 2;
-
-		}
-
-	}
-
-	.themes-list {
-
-		.theme {
-
-			width: 33.333%;
-
-		}
-
-	}
-
 }
 
 
@@ -142,16 +38,6 @@
 	html {
 
 		font-size: ( ( $font-size * 0.85 ) * 1% );
-
-	}
-
-	.themes-list {
-
-		.theme {
-
-			width: 50%;
-
-		}
 
 	}
 

@@ -61,6 +61,23 @@
 
 			}
 
+			@include for-tablet {
+
+				background-position: left top;
+				margin-top: 0;
+				padding-bottom: $grid-line-height * 2;
+
+				&:nth-child( odd ),
+				&:nth-child( even ) {
+
+					margin-top: 0;
+					padding-left: $grid-gutter * 2;
+					padding-right: 0;
+
+				}
+
+			}
+
 		}
 
 	}

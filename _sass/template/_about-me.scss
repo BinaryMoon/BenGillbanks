@@ -17,7 +17,7 @@
 		max-height: $grid-gutter * 4;
 		position: absolute;
 		top: $grid-line-height / 2;
-		left: $grid-gutter * -1.65;
+		left: $grid-gutter * -1.75;
 
 	}
 
@@ -38,6 +38,24 @@
 		height: $grid-line-height * 20;
 		z-index: -1;
 		opacity: 0.25;
+
+	}
+
+	@include for-tablet {
+
+		padding-top: $grid-line-height * 4;
+
+		.container {
+
+			padding: ( $grid-line-height * 3 ) ( $grid-gutter ) ( $grid-line-height * 2 ) ( $grid-gutter );
+
+		}
+
+		.avatar {
+
+			top: $grid-line-height * -4;
+			left: $grid-gutter;
+		}
 
 	}
 

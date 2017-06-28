@@ -6,8 +6,15 @@
 
 		border: 1rem solid $canvas-color;
 		padding: ( $grid-line-height * 2 ) ( $grid-gutter * 2 );
-		max-width: $grid-total-width * 0.5;
+		max-width: $grid-total-width * 0.75;
 		background: $canvas-white;
+
+		@include for-tablet {
+
+			padding-left: $grid-gutter;
+			padding-right: $grid-gutter;
+
+		}
 
 	}
 
