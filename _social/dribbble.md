@@ -1,5 +1,5 @@
 ---
-title: Dribbbbbbble
+title: Dribbble
 website: https://dribbble.com/binarymoon
 icon: dribbble
 order: 4
