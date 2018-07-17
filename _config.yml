@@ -23,7 +23,7 @@ collections:
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-sitemap
