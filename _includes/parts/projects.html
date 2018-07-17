@@ -1,27 +1,22 @@
 {% assign projects = site.projects | sort: 'order' %}
 <section class="projects">
 
-	<div class="container">
+	<h2>My Projects</h2>
 
-		{% for project in projects %}
+	{% for project in projects %}
 
-		<div class="project">
+	<header>
 
-			<div class="project-inner" style="background-image:url( https://s0.wordpress.com/mshots/v1/{{ project.website | cgi_escape }}?w=800&h=600 );">
+		<h3><a href="{{ project.website }}">{{ project.title }}</a></h3>
 
-				<div class="project-meta">
+	</header>
 
-					<h2><a href="{{ project.website }}">{{ project.title }}</a></h2>
-					{{ project.content }}
+	<div class="content">
 
-				</div>
-
-			</div>
-
-		</div>
-
-		{% endfor %}
+		{{ project.content }}
 
 	</div>
+
+	{% endfor %}
 
 </section>
