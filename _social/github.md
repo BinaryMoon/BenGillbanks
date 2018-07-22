@@ -1,5 +1,5 @@
 ---
-title: Github/BinaryMoon
+title: Github
 icon: github
 website: https://github.com/BinaryMoon/
 order: 2

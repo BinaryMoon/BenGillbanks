@@ -1,5 +1,5 @@
 ---
-title: "@binarymoon"
+title: Twitter
 website: https://twitter.com/binarymoon
 icon: twitter
 order: 1
