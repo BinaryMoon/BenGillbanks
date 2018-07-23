@@ -2,6 +2,7 @@
 ---
 $gutter: 2rem;
 $margin: 2rem;
+$color: #35AE56;
 $light-grey: #eee;
 
 @charset "utf-8";
@@ -39,7 +40,16 @@ body {
 
 a {
 
-	color: #f2c502;
+	color: $color;
+
+	&:hover {
+
+		text-decoration: none;
+
+	}
+
+}
+
 img {
 
 	max-width: 100%;
@@ -50,6 +60,8 @@ img {
 header.masthead {
 
 	background: $light-grey;
+	margin-bottom: $margin;
+
 	img {
 
 		align-self: end;
