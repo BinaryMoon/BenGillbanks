@@ -40,6 +40,10 @@ body {
 a {
 
 	color: #f2c502;
+img {
+
+	max-width: 100%;
+	height: auto;
 
 }
 
@@ -67,6 +71,16 @@ section {
 }
 
 @media (min-width: 40rem) {
+
+	header.masthead {
+
+		section {
+
+			padding-bottom: 0;
+
+		}
+
+	}
 
 	section {
 
