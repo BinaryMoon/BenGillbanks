@@ -1,6 +1,6 @@
 ---
 title: Binary Joy
 website: http://binaryjoy.co.uk
-order: 10
+order: 100
 ---
 A video game news and reviews site.
