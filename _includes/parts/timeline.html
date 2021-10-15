@@ -9,7 +9,11 @@
 
 	<header>
 
+		{% if project.website %}
+		<h3><a href="{{ project.website }}">{{ project.title }}</a></h3>
+		{% else %}
 		<h3>{{ project.title }}</h3>
+		{% endif %}
 		<p class="meta">{{ project.start_date | date: "%B %Y" }} {% if project.end_date %}→ {{ project.end_date | date: "%B %Y" }}{% endif %}</p>
 
 	</header>
