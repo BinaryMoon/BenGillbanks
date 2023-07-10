@@ -4,4 +4,4 @@ icon: mastodon
 website: https://mastodon.social/@binarymoon
 order: 1
 ---
-Code and stuff. Including the code for this site.
+I use this the most now. It's a great place to chat with people, and I'm trying to post more regularly.
