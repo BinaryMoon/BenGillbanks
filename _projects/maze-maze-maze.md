@@ -1,6 +1,6 @@
 ---
 title: Maze Maze Maze
 website: https://mazemazemaze.com
-order: 100
+order: 110
 ---
 A daily maze generator, built for my son who loves mazes.

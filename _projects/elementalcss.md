@@ -1,5 +1,5 @@
 ---
-name: Elemental CSS
+title: Elemental CSS
 website: https://elementalcss.com
 order: 40
 ---
