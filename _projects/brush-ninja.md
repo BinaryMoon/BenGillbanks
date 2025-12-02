@@ -3,4 +3,4 @@ title: Brush Ninja
 website: https://brush.ninja
 order: 10
 ---
-A free, browser based, animation creator.
+A free, browser based, animation creator with other creative tools.
